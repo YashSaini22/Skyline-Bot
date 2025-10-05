@@ -9,7 +9,7 @@ module.exports.run = async (client, message, args) => {
         let invite = new Discord.MessageEmbed()
                 .setTitle("Invite & Support Link!")
                 .setColor('#0b99f0')
-                .setDescription("**This Bot is Private , contact to ``YasH``⚡#1151**")
+                .setDescription("**This Bot is Private , contact to ``YasH``#1151**")
                 .addField("Support Server", "[Click to join support Server](https://discord.gg/eJEBv7mRuJ)")
                 .setTimestamp()
                 .setFooter(`Requested by ${message.author.tag}`, client.user.displayAvatarURL())
@@ -19,3 +19,4 @@ module.exports.run = async (client, message, args) => {
 module.exports.help = {
         name: "invite"
 }
+
