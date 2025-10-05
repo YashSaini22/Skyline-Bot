@@ -7,7 +7,7 @@ module.exports.run = async (client, message, args) => {
         if (!message.content.startsWith(prefix)) return;
 
         let help = new Discord.MessageEmbed()
-                .setAuthor("A Bot By YasH⚡")
+                .setAuthor("A Bot By YasH")
                 .setColor('#0b99f0')
                 .setTitle("Command List & Guide for the Bot")
                 .addField("<a:tadaa:828497767953465384> __Giveaway__ <a:tadaa:828497767953465384>", "➤start [channel-name] [Time] [winners] [Prize]\n➤reroll [prize name]\n➤end [prize name]")
@@ -24,3 +24,4 @@ module.exports.help = {
         name: "help"
 }
 //will update this
+
